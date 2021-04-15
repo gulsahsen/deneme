@@ -1,0 +1,13 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(NewTegomin-Regular.ttf);
+  }
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Train+One&family=Zilla+Slab+Highlight&display=swap');
+
+	<link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+	
+img {
+  width: 200px;
+  border-radius: %50
+}

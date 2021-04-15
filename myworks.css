@@ -1,0 +1,48 @@
+body{
+    background-image: url("bgg.jpg");
+    background-repeat:repeat-x;
+    background-size: 300px;
+}
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    float: left;
+    margin-right: 50px;
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ilkiki{
+    float: left;
+    margin-right: 30px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightcoral;
+}
+
+.soniki{
+    float: left;
+    margin-right: 30px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightcoral;
+}
+
+h2{
+    color: blueviolet; text-align: center;
+background-color: rgb(226, 248, 147, 0.5);
+/* display: inline-block ; text-align: center; */
+background-origin: inherit;
+font-family: monospace;
+font-size: 40px;
+}
+a:hover{
+    color: chocolate;
+}
+a:visited{
+    color: rgb(0, 139, 19);
+}
+a:active{
+    color: darksalmon;
+}
