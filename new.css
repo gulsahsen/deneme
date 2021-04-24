@@ -1,3 +1,8 @@
+#baslık{
+    border: 5px inset red;
+    border-radius: 5px;
+    display:inline;
+}
 img{
     width: 300px;
 border-radius: 80%;
@@ -10,6 +15,10 @@ background-origin: inherit;
 font-family: monospace;
 font-size: 40px;
 }
+#navbar{
+    float: right;
+}
+
 .container{
     background-color: rgb(116, 186, 252, 0.5);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -22,6 +31,7 @@ font-size: 40px;
 h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+
 }
 body{
     background-image: url("bgg.jpg");
