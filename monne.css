@@ -1,0 +1,104 @@
+header{
+    background-image: url(abc.png);
+    background-size: 1650px;
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+   
+}
+body{
+    background-image: url(giriş.jpg);
+    background-size: 1650px;
+    background-repeat: no-repeat;
+}
+
+.birinci{
+    position: relative;
+    animation-name: birinci;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes birinci{
+    0% {right: 1500px;}
+    100% {right: 0px;}
+}
+
+.ikinci{
+    position: relative;
+    animation-name: ikinci;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes ikinci{
+    0% {left: 1500px;}
+    100% {left: 0px;}
+}
+
+.resim1{
+    position: absolute;
+    left: 100PX;
+    transform: translateY(750px);
+}
+.yazı1{
+    position: absolute;
+    left: 500PX;
+    transform: translateY(800px);
+    background-image: url(bg1.png);
+    background-size: 1500px;
+    background-repeat: no-repeat;
+}
+
+.resim2{
+    position: absolute;
+    left: 1250px;
+    transform: translateY(1150px);
+}
+.yazı2{
+    position:absolute;
+    left: 100px;
+    transform: translateY(1200px);
+    background-image: url(bg2.png);
+    background-size: 750px;
+    background-repeat: no-repeat;
+}
+
+
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    color: blueviolet;
+}
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+li,a{
+    list-style-type: none;
+    text-decoration: none;
+    float: left;
+    margin-right: 120px;
+    margin-top: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    color: rgb(255, 222, 160);
+}
+ul{
+    margin-left: 200px;
+}
+ol{
+    margin-left: 610px;
+
+}
+a:hover{
+    background-color: cornsilk;
+    color: rgb(210, 51, 30);
+}
+a:visited{
+    color: rgb(221, 99, 0);
+}
+a:active{
+    color: rgb(0, 102, 133);
+}

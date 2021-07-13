@@ -37,6 +37,7 @@ li,a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 a:hover{
+    background-color: cornsilk;
     color: chocolate;
 }
 a:visited{

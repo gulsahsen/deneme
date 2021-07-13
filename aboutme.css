@@ -1,39 +1,62 @@
+header{
+    background-image: url(abc.png);
+    background-size: 1650px;
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+}
 body{
-    background-image: url("bgg.jpg");
-    background-repeat:repeat-x;
-    background-size: 450px;
+    background-image: url(mavi3.jpg);
+    background-size: 1980px;
+    /* background-repeat: no-repeat; */
 }
 li,a{
     list-style-type: none;
     text-decoration: none;
     float: left;
-    margin-right: 50px;
+    margin-right: 120px;
     margin-top: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    color: rgb(255, 222, 160);
+}
+ul{
+    margin-left: 200px;
+}
+ol{
+    margin-left: 610px;
+
 }
 a:hover{
-    color: chocolate;
+    background-color: cornsilk;
+    color: rgb(210, 51, 30);
 }
 a:visited{
-    color: rgb(0, 139, 19);
+    color: rgb(255, 152, 68);
 }
 a:active{
-    color: darksalmon;
+    color: rgb(0, 102, 133);
 }
-h1{
-    color: blueviolet; text-align: center;
-background-color: rgb(226, 248, 147, 0.5);
-/* display: inline-block ; text-align: center; */
-background-origin: inherit;
-font-family: monospace;
-font-size: 40px;
+main{
+    position: relative;
+    animation-name: experience;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
 }
+@keyframes experience{
+    0% {opacity: 0;}
+    100% {opacity: 100;}
+}
+
 h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16;
-    color: lightcoral;
+    font-size: 14;
+    color:blueviolet;
+    margin-left: 10px;
+    text-align: center;
 }
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12;
+    text-align: center;
 }

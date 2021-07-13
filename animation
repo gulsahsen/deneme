@@ -1,0 +1,21 @@
+ animation: anime1;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes anime1 {
+  0%   {
+    top: -50px;
+    color: white
+  }
+ 45% {
+
+   color: blue;
+ }
+
+  100% {
+    top: 18vh;
+    color: red;
+  }
+}
