@@ -37,7 +37,7 @@ body{
 
 .resim1{
     position: absolute;
-    left: 100PX;
+    left: 50PX;
     transform: translateY(750px);
 }
 .yazı1{
@@ -56,7 +56,7 @@ body{
 }
 .yazı2{
     position:absolute;
-    left: 100px;
+    left: 50px;
     transform: translateY(1200px);
     background-image: url(bg2.png);
     background-size: 750px;
