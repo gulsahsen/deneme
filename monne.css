@@ -7,7 +7,7 @@ header{
 }
 body{
     background-image: url(giriş.jpg);
-    background-size: 1550px;
+    background-size: 1650px;
     background-repeat: no-repeat;
 }
 
@@ -42,7 +42,7 @@ body{
 }
 .yazı1{
     position: absolute;
-    left: 500PX;
+    left: 700PX;
     transform: translateY(800px);
     background-image: url(bg1.png);
     background-size: 1500px;
@@ -51,13 +51,13 @@ body{
 
 .resim2{
     position: absolute;
-    left: 1250px;
-    transform: translateY(1150px);
+    left: 1050px;
+    transform: translateY(1300px);
 }
 .yazı2{
     position:absolute;
     left: 50px;
-    transform: translateY(1200px);
+    transform: translateY(1400px);
     background-image: url(bg2.png);
     background-size: 750px;
     background-repeat: no-repeat;
